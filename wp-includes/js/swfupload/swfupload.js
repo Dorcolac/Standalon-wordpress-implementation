@@ -736,7 +736,7 @@ SWFUpload.prototype.queueEvent = function (handlerName, argumentArray) {
 };
 
 // Private: Causes the next event in the queue to be executed.  Since events are queued using a setTimeout
-// we must queue them in order to garentee that they are executed in order.
+// we must queue them in order to guarantee that they are executed in order.
 SWFUpload.prototype.executeNextEvent = function () {
 	// Warning: Don't call this.debug inside here or you'll create an infinite loop
 
