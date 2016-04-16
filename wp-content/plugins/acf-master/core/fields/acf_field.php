@@ -51,7 +51,7 @@ class acf_Field
 	*	create_options
 	*	- called from core/field_meta_box.php to create special options
 	*
-	*	@params : 	$key (int) - neccessary to group field data together for saving
+	*	@params : 	$key (int) - necessary to group field data together for saving
 	*				$field (array) - the field data from the database
 	*	@author Elliot Condon
 	*	@since 2.2.0

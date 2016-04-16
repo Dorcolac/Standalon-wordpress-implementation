@@ -45,7 +45,7 @@
 		}
 		
 
-		// accomodate for order / remove
+		// accommodate for order / remove
 		var column_width = 100;
 		if( repeater.find('> .acf-input-table > thead > tr > th.order').exists() )
 		{
