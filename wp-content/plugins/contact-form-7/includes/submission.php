@@ -140,7 +140,7 @@ class WPCF7_Submission {
 
 		$contact_form = $this->contact_form;
 
-		if ( ! $this->validate() ) { // Validation error occured
+		if ( ! $this->validate() ) { // Validation error occurred
 			$this->status = 'validation_failed';
 			$this->response = $contact_form->message( 'validation_error' );
 
