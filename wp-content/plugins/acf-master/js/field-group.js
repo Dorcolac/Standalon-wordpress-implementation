@@ -17,7 +17,7 @@ var acf = {
 	*  Exists
 	*  
 	*  @since			3.1.6
-	*  @description		returns true or false on a element's existance
+	*  @description		returns true or false on a element's existence
 	*/
 	
 	$.fn.exists = function()
